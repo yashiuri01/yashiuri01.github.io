@@ -1,40 +1,89 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Required meta tags -->
     <meta charaset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Yashiuri Portfolio</title>
     <meta name="author" content="yashiuri">
-    <meta name="description" content="It is a portfolio of infrastructure engineer Yashiuri.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <!--
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-  -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="It is a portfolio of Infrastructure & Back-End Developer Yashiuri.">
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/stylesheets.css">
   </head>
   <body>
-  	<header>
-      <!-- menu bar -->
-      <div class="head">
-        <ul>
-          <li>top</li>
-          <li>about</li>
-          <li>skill</li>
-          <li>works</li>
-          <li>contacts</li>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary mb-2">
+      <a class="navbar-brand" href="#top">Yashiuri Portfolio </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#skill">Skill</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#works">Works</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
-    </header>
+    </nav>
     <main>
-      <div class="top"></div>
-      <div class="about"></div>
-      <div class="skill"></div>
-      <div class="works"></div>
-      <div class="contacts"></div>
+      <div class="jumbotron jumbotron-extended" id="top">
+        <div class="container-fluid jumbotron-container text-white" >
+            <h1 class="display-2">Welcome</h1>
+            <p class="lead">I'm Infrastracture & Back-End Developer.</p>
+        </div>
+      </div>
+      <div class="container-fluid container-extended shadow p-3 mb-3" id="about">
+          <h1 class="display-4">About</h1>
+          <p>SIer4年目のインフラ、バックエンドエンジニアです。</p>
+      </div>
+      <div class="container-fluid container-extended shadow p-3 mb-3" id="skill">
+        <div class="row">
+            <h1 class="display-4">Skill</h1>
+        </div>
+        <div class="col-sm-4">
+            <h3>Front-End</h3>
+            <h3>Back-End</h3>
+            <h3>Infrastracture</h3>
+        </div>
+        <div class="col-sm-8">
+            <p></p>
+        </div>
+      </div>
+      <div class="container-fluid container-extended shadow p-3 mb-3" id="works">
+          <h1 class="display-4">Works</h1>
+          <p>制作物掲載</p>
+      </div>
     </main>
     <footer>
-            
+      <div class="container-fluid container-footer-extended bg-primary " id="contacts">
+        <h1 class="display-4 text-white">Contacts</h1>
+        <p class="text-center">
+          <a class="px-4" href="#"><i class="far fa-envelope fa-4x icon-contact"></i></a>
+          <a class="px-4" href="#"><i class="fab fa-twitter fa-4x icon-contact"></i></a>
+          <a class="px-4" href="#"><i class="fab fa-github fa-4x icon-contact"></i></a>
+        </p>
+      </div>
     </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/scroll.js"></script>
   </body>
 </html>

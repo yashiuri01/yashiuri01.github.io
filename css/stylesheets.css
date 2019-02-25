@@ -1,0 +1,39 @@
+.jumbotron-extended {
+    position: relative;
+    height: 100vh;
+    min-height: 200px;
+    margin-bottom: 0;
+    background: url(../img/top_back.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.jumbotron-container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.container-extended {
+    position: relative;
+    height: 100vh;
+    min-height: 200px;
+}
+
+
+
+.container-footer-extended {
+    position: relative;
+    height: 25vh;
+    min-height: 200px;
+    padding-bottom: 0;
+}
+
+.icon-contact {
+  color: #fff;
+}
+
+.icon-contact:hover {
+  color: #64B5F6;
+}
