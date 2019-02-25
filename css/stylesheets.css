@@ -58,6 +58,7 @@
   }
 
   .container-footer-extended {
+    height: 15vh;
     min-height: 100px;
   }
 
