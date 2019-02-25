@@ -22,6 +22,7 @@
 .container-footer-extended {
     position: relative;
     height: 25vh;
+    min-height: 100px;
     padding-bottom: 0;
 }
 
@@ -32,10 +33,3 @@
 .icon-contact:hover {
   color: #64B5F6;
 }
-
-@media (min-width: 576px) {
-  .display-2 {
-    display: none;
-  }
-}
-
