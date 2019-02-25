@@ -18,7 +18,7 @@
 .container-extended {
     position: relative;
     height: 100vh;
-    min-height: 200px;
+/*    min-height: 200px;*/
 }
 
 
@@ -26,7 +26,7 @@
 .container-footer-extended {
     position: relative;
     height: 25vh;
-    min-height: 200px;
+ /*   min-height: 200px;*/
     padding-bottom: 0;
 }
 
