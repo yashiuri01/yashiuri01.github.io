@@ -46,4 +46,19 @@
   .display-4 {
     font-size: 2em;
   }
+
+  .icon-contact {
+    color: #fff;
+    font-size: 2em;
+  }
+
+  .icon-contact:hover; {
+    color: #64B5F6;
+    font-size: 2em;
+  }
+
+  .container-footer-extended {
+    min-height: 100px;
+  }
+
 }
