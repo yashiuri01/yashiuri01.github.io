@@ -65,17 +65,12 @@
 }
 
 @media (max-width: 575px) {
-  #skill, #works{
-  line-height: 2.5em;
-  letter-spacing: 0.25em;
-}
-
   .display-3 {
     font-size: 3em;
   }
 
   .lead {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .display-4 {
@@ -83,7 +78,7 @@
   }
 
   .col-6 {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .icon-contact {
