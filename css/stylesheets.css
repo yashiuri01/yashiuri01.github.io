@@ -48,14 +48,6 @@
   box-sizing: border-box;
 }
 
-.container-extended {
-    height: 100vh;
-}
-
-.container-skill-extended {
-    height: 100vh;
-}
-
 .icon-contact {
   color: #000;
 }
@@ -80,10 +72,6 @@
   .col-6 {
     font-size: 0.8em;
   }
-  
-  .container-skill-extended {
-    height: 125vh;
-  }  
 
   .icon-contact {
     color: #000;
