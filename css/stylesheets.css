@@ -65,6 +65,11 @@
 }
 
 @media (max-width: 575px) {
+  #skill, #works{
+  line-height: 2.5em;
+  letter-spacing: 0.25em;
+}
+
   .display-3 {
     font-size: 3em;
   }
@@ -77,7 +82,7 @@
     font-size: 2em;
   }
 
-  .row {
+  .col-6 {
     font-size: 1em;
   }
 
