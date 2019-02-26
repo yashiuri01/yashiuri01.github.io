@@ -1,3 +1,8 @@
+#top, #about, #skill, #works {
+  line-height: 3em;
+  letter-spacing: 0.25em;
+}
+
 .jumbotron-extended {
     position: relative;
     height: 100vh;
@@ -14,27 +19,52 @@
     transform: translateY(-50%);
 }
 
+.scroll{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+.scroll a{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 60px;
+}
+
+.scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
 .container-extended {
-    position: relative;
     height: 100vh;
 }
 
 .container-footer-extended {
-    position: relative;
-    height: 20vh;
-    min-height: 140px;
-    padding-bottom: 0;
+    padding-bottom: ;
 }
 
 .icon-contact {
-  color: #fff;
+  color: #000;
 }
 
 .icon-contact:hover {
   color: #64B5F6;
 }
 
-@media (max-width: 544px) {
+@media (max-width: 575px) {
   .display-3 {
     font-size: 3em;
   }
@@ -48,7 +78,7 @@
   }
 
   .icon-contact {
-    color: #fff;
+    color: #000;
     font-size: 2em;
   }
 
@@ -56,10 +86,4 @@
     color: #64B5F6;
     font-size: 2em;
   }
-
-  .container-footer-extended {
-    height: 15vh;
-    min-height: 100px;
-  }
-
 }
