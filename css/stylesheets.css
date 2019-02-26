@@ -1,5 +1,5 @@
 #top, #about, #skill, #works{
-  line-height: 2.5em;
+  line-height: 3em;
   letter-spacing: 0.25em;
 }
 
@@ -75,6 +75,10 @@
 
   .display-4 {
     font-size: 2em;
+  }
+
+  .row {
+    font-size: 1em;
   }
 
   .icon-contact {
